@@ -1,0 +1,23 @@
+{
+  "name": "disparcher",
+  "version": "1.0.0",
+  "description": "A useful, little dispatcher",
+  "main": "src/EasyDispatcher.js",
+  "scripts": {
+    "test": "mocha tests/node-test.js",
+    "build": "babel src -d lib",
+    "test-browser": "babel src -d lib && python -m SimpleHTTPServer"
+  },
+  "author": "Stefano Valente",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.6.0",
+    "expect.js": "^0.3.1",
+    "mocha": "^3.5.0"
+  },
+  "dependencies": {
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-es2015-script": "^1.1.0"
+  }
+}
