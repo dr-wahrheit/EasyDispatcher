@@ -4,7 +4,7 @@
   "description": "A useful, little dispatcher",
   "main": "src/EasyDispatcher.js",
   "scripts": {
-    "test": "mocha tests/node-test.js",
+    "test": "mocha test/node-test.js",
     "build": "babel src -d lib",
     "test-browser": "babel src -d lib && python -m SimpleHTTPServer"
   },

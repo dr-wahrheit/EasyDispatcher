@@ -1,4 +1,4 @@
-EasyDispatcher = require('../src/EasyDispatcher.js');
+EasyDispatcher = require('../lib/EasyDispatcher.js');
 expect = require('expect.js');
 
 require('./test.js');
